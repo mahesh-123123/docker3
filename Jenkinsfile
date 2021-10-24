@@ -19,7 +19,7 @@ pipeline {
                 script {
                  /* bat 'docker build -t maheshreddy123/nnn:v6 .'
                   bat 'docker run -itd -p 80:80 maheshreddy123/nnn:v6'  */
-                bat 'docker run -d -p 80:80 --name webserver myimage'
+                bat 'docker run -d -p 80:80 maheshreddy123/myimage:v1 .'
                 }
             }
         }
