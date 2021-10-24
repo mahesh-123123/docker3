@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('SCM') {
             steps {
-                git branch: 'main', url: 'https://github.com/mahesh-123123/docker2.git'
+                git branch: 'main', url: 'https://github.com/mahesh-123123/docker3.git'
             }
         }
        /* stage('Maven Build') {
